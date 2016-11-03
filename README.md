@@ -19,7 +19,7 @@ le programme recupère ces 'lignes de test' dans un **fichier passé en parametr
 
 chaque 'ligne de test' est séparé par un retour a la ligne.
 
-exemple de fichier type qu'on passe en parametre :
+exemple du contenu d'un fichier type :
 
 ```
 "salut %s, tu as %d ans", "Jean", 12
@@ -36,8 +36,8 @@ exemple de fichier type qu'on passe en parametre :
 
 + **__[!] attention__**, vous ne pouvez mettre de '\n' dans les chaines de characteres de vos lignes de test.
 + par defaut, si vous ne precisez pas de fichier en argument, le programme va prendre le fichier test 'examples.txt'
-+ pour l'argument path, vous pouvez aussi precisez le nom du dossier ou se trouve votre libftprintf, le programme se chargera de faire le make a votre place.
++ pour l'argument path, vous pouvez aussi précisez le nom du dossier ou se trouve votre libftprintf, le programme se chargera de faire le make a votre place.
 
 ##contribution
 
-vous pouvez contribuer en apportant vos idées, signaler, corriger un bug. Toute aide est apprécié.
+vous pouvez contribuer en apportant vos idées d'amélioration, signaler, corriger un bug. Toute aide est apprécié.
