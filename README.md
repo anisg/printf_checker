@@ -35,7 +35,7 @@ exemple du contenu d'un fichier type :
 ##note
 
 + **__[!] attention__**, vous ne pouvez mettre de '\n' dans les chaines de characteres de vos lignes de test.
-+ par defaut, si vous ne precisez pas de fichier en argument, le programme va prendre le fichier test 'examples.txt'
++ par defaut, si vous ne precisez pas de fichier de test en argument, le programme va prendre le fichier test 'examples.txt'
 + pour l'argument path, vous pouvez aussi précisez le nom du dossier ou se trouve votre libftprintf, le programme se chargera de faire le make a votre place.
 
 ##contribution
