@@ -51,7 +51,7 @@ def compile_tests(lib_path, header_path, filename):
 
 def main():
 	parser = argparse.ArgumentParser(description='printf checker v'+ version +', check your ft_printf')
-	parser.add_argument('-f', '--file',required=False,  default=default_file,
+	parser.add_argument('-f', '--file',required=False,  default=script_dir + '/' + default_file,
 		help='the name of the file you want to test (default: '+ default_file +')')
 	parser.add_argument('-p', '--path',required=True,
                    help='the path of your libftprintf.a (example: ~/project/ft_printf/libftprintf.a), note: if you provide just the directory, we will try to do a make')
