@@ -8,7 +8,7 @@ programme qui verifie que votre ft_printf a un bon fonctionnement.
 
 Ce programme va lire des 'ligne de test'.
 
-example de 'ligne de test':
+#####example de 'ligne de test':
 
  ```php
  "test1: %s", "yo"
@@ -22,7 +22,7 @@ example de 'ligne de test':
  ft_printf("test1: %s", "yo")
  ```
 
-ou encore:
+#####ou encore:
 
  ```php
  "test2: %.4d", 59
@@ -56,7 +56,7 @@ $> ./check.py --path PATH_TO_LIBFTPRINTF.A --header PATH_TO_LIBFT.H --file FILE_
 ```
 
 ##note
-+ **l'option --file est optionnel**, si vous ne precisez pas cette argument, le script choisira le fichier 'examples.txt'   fourni avec.
++ **l'option --file est optionnel**, si vous ne precisez pas cette argument, le script choisira comme fichier le fichier 'examples.txt' fourni avec.
 + **__[!] attention__**, vous ne pouvez mettre de '\n' dans les chaines de characteres de vos lignes de test.
 + pour l'argument path, vous pouvez aussi précisez le nom du dossier ou se trouve votre libftprintf, le programme se chargera de faire le make a votre place.
 
