@@ -6,7 +6,7 @@ programme qui verifie que votre ft_printf a un bon fonctionnement.
 
 **le programme va simplement comparer la sortie du vrai printf avec votre ft_printf.**
 
-Ce programme va lire des 'ligne de test'.
+Ce programme va lire des 'ligne de test' (argument de la fonction printf mis sur une ligne).
 
 #####example de 'ligne de test':
 
